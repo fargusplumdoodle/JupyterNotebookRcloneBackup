@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer for Rclone backup for jupyter notebook
+
+[Timer]
+# Every day at noon
+OnCalendar=*-*-* 12:00:00
+Unit=jwr.service
+
+[Install]
+WantedBy=timers.target
