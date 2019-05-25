@@ -1,0 +1,7 @@
+[Unit]
+Description=Rclone backup for jupyter notebook
+
+
+[Service]
+Type=simple
+ExecStart=/home/fargus/jwr/start_backup.sh
