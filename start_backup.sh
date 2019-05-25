@@ -3,5 +3,8 @@
 # copying files over to host
 sudo docker cp jwr:/home/jovyan/ ./
 
+# setting permissions
+sudo chown fargus:fargus ./**
+
 # backup to google drive
-sudo python3 backup.py
+python3 backup.py
